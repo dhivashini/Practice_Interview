@@ -41,7 +41,7 @@ public class DetectLoopTest {
 		Node n4 = new Node(23, n3);
 //		n4.next = null;
 		DetectLoop obj = new DetectLoop();
-		boolean hasLoop = obj.hasLoop(n1);
+		boolean hasLoop = obj.hasLoop(n4);
 		boolean expected = false;
 		assertEquals(expected, hasLoop);
 	}
